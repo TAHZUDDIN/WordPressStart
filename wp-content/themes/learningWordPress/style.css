@@ -353,6 +353,10 @@ div.hd-search #s{
 }
 
 /*Post Colimns*/
+.home-columns{
+	padding-top: 30px;
+}
+
 .one-half{
 	width: 45%;
 	float: left;
