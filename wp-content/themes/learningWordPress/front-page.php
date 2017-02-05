@@ -21,9 +21,9 @@
        endif;  ?>
 
            <!-- homw-columns -->
-           <div  class="home-columns clearfix">
+           <div  class="home-columns clearfix" style="padding-top: 30px;">
                  <!-- one-half -->
-                 <div name="one-half">
+                 <div name="one-half" style="width: 45%;  float: left;  margin-right: 10%;">
 
 
 
@@ -51,12 +51,12 @@
                  </div><!-- /one-half -->
 
                  <!-- one-half -->
-                 <div name="one-half last">
+                 <div name="one-half last" style="width: 45%;  float: left;  margin-right: 0;">
 
                      <?php
 
                         // news  posts loop begins here
-                        $newsPosts = new WP_Query('cat=8&posts_per_page=2');
+                        $newsPosts = new WP_Query('cat=2&posts_per_page=2');
                         if($newsPosts->have_posts()):
                           while($newsPosts->have_posts()):$newsPosts->the_post(); ?>
                             
