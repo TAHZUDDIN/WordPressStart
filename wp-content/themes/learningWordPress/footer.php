@@ -1,5 +1,15 @@
 <footer class="site-footer">
 
+         <div class="footer-callout">
+         	<div class="footer-callout-image">
+         	</div>
+
+         	<div class="footer-callout-text">
+         	   <h2>Placeholder Heading</h2>
+         	   <p>Dummy lorem ipsum content here.</p>
+         	</div>
+         </div>
+
 	    <!-- footer widgets -->
 	    <div class="footer-widgets clearfix">
 
