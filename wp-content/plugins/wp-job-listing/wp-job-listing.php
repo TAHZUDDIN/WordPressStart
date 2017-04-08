@@ -17,7 +17,8 @@
   require_once( plugin_dir_path(__FILE__).'wp-job-cpt.php'); 
   // require_once( plugin_dir_path(__FILE__).'wp-job-render-admin.php'); 
   require_once( plugin_dir_path(__FILE__).'wp-job-fields.php');
-  require_once( plugin_dir_path(__FILE__).'wp-job-settings.php');  
+  require_once( plugin_dir_path(__FILE__).'wp-job-settings.php'); 
+  require_once( plugin_dir_path(__FILE__).'wp-job-shortcode.php');  
 
 
   function dwwp_admin_enqueue_scripts(){
